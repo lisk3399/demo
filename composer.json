@@ -1,0 +1,21 @@
+{
+    "name": "170487571/mycdemo",
+    "description": "demo",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "hardy",
+            "email": "hardy0318.wang@foxmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "User\\Client\\": "src/User/Client"
+        }
+    }
+}
